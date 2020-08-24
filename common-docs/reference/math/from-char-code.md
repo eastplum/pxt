@@ -38,6 +38,7 @@ let decoded = "";
 for (let code of secret) {
     decoded = decoded + String.fromCharCode(code);
 }
+game.splash(decoded)
 ```
 
 ## See also
